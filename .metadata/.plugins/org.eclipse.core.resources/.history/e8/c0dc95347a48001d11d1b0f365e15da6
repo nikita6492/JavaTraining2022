@@ -1,0 +1,14 @@
+
+public class DisplayTest {
+
+	Display di = new Display() {
+
+		@Override
+		public void print() {
+			System.out.println("printt");
+			
+		}
+		
+	};
+	
+}

@@ -1,0 +1,14 @@
+package com.sprintOne.evaluation.DateTimeDemo;
+
+import java.time.LocalDate;
+import java.time.ZoneId;
+
+public class DateTimeAPIDemo {
+
+	public static void main(String[] args) {
+		LocalDate ld = LocalDate.now(ZoneId.of("America/Los_Angeles"));
+		System.out.println(ld);
+
+	}
+
+}

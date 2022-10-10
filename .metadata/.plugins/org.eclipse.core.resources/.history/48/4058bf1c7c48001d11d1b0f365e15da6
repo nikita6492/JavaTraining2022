@@ -1,0 +1,8 @@
+@FunctionalInterface
+public interface Display {
+
+	void print();
+	static void print2() {
+		System.out.println("print2");
+	}
+}
